@@ -1,0 +1,984 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block content %}
+
+         <!--===============PAGE CONTENT==============-->
+         <!--===============PAGE CONTENT==============-->
+         <div id="content" class="site-content">
+            <!---slider-->
+            <section class="slider style_four nav_position_one" id="home">
+               <div class="owl-carousel owl_nav_block owl_dots_none theme_carousel owl-theme"
+                  data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 7000, "smartSpeed": 1800, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
+
+                  <div class="slide-item-content">
+                     <div class="slide-item content_left">
+                        <div class="image-layer" style="background-image:url({% static 'assets/images/sliders/candle-4888559_1280.jpg' %})">
+                        </div>
+                        <div class="auto-container">
+                           <div class="row">
+                              <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                                 <div class="slider_content pd_top_180 pd_bottom_200">
+                                    <h6 class="animate_up d-inline-block"> Honoring Lives, Embracing Memories </h6>
+                                    <h1 class="animate_left"> Solid Indeed <br>Funeral & Casket </h1>
+                                    <p class="description animate_right">At Solid Indeed Funeral & Casket, we understand the importance of honoring<br> lives and creating moments that cherish the memories of your loved ones.  <br> Our compassionate team is here to guide you through this difficult time
+                                       accepted. </p>
+                                    <div class="button_all animate_down">
+                                       <a href="{% url 'main:about' %}" rel="nofollow" class="theme-btn one  animated">Read
+                                          More</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slide-item-content">
+                     <div class="slide-item content_center">
+                        <div class="image-layer" style="background-image:url({% static 'assets/images/sliders/candles-99840_1280.png' %})">
+                        </div>
+                        <div class="auto-container">
+                           <div class="row">
+                              <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                                 <div class="slider_content pd_top_180 pd_bottom_200">
+                                    <h6 class="animate_up d-inline-block"> Compassion in Every Detail </h6>
+                                    <h1 class="animate_left"> Solid Indeed <br>Funeral & Casket </h1>
+                                    <p class="description animate_right"> With decades of experience,  our team brings<br> compassion to every detail.  From personalized ceremonies to thoughtful<br> guidance, we are here to support you with understanding and care.</p>
+                                    <div class="button_all animate_down">
+                                       <a href="{% url 'main:about' %}" rel="nofollow" class="theme-btn one  animated">Read
+                                          More</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slide-item-content">
+                     <div class="slide-item content_right">
+                        <div class="image-layer" style="background-image:url({% static 'assets/images/sliders/pexels-cottonbro-studio-9588748.jpg' %})">
+                        </div>
+                        <div class="auto-container">
+                           <div class="row">
+                              <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                                 <div class="slider_content pd_top_180 pd_bottom_200">
+                                    <h6 class="animate_up d-inline-block"> Celebrating Unique Legacies </h6>
+                                    <h1 class="animate_left"> Solid Indeed <br>Funeral & Casket </h1>
+                                    <p class="description animate_right"> Every life is a story, and at Solid Indeed Funeral & Casket,<br> we specialize in creating services that reflect the unique legacy of <br>your loved one. Let us help you celebrate a life well-lived.
+                                    </p>
+                                    <a href="{% url 'main:about' %}" target=_blank rel=nofollow class="theme-btn one  animated _zoomIn"> Read
+                                       More </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!---slider-end--->
+            <!---about us-->
+            <section class="about_us_section" id="about">
+               <!--===============spacing==============-->
+               <div class="pd_top_100"></div>
+               <!--===============spacing==============-->
+               <div class="container pd_zero">
+                  <div class="row">
+                     <div class="col-xl-6 col-lg-12">
+                        <div class="title_all_box style_one dark_color">
+                           <div class="title_sections left">
+                              <div class="before_title"> Why  </div>
+                              <h2> Choose Us?</h2>
+                              <p> Choosing the right funeral home is a deeply personal decision. At Solid Indeed Funeral & Casket, we offer:</p>
+                           </div>
+                        </div>
+                        <!--===============spacing==============-->
+                        <div class="pd_bottom_20"></div>
+                        <!--===============spacing==============-->
+                        <div class="process_box style_one dark_color">
+                           <div class="process_box_outer">
+                              <div class="icon">
+                                 <span class=" icon-line-chart"></span>
+                                 <div class="number"> 01 </div>
+                              </div>
+                              <div class="content_box">
+                                 <h2>
+                                    <a href="#" target="_blank" rel="nofollow">Experience:</a>
+                                 </h2>
+                                 <p>  With decades of dedicated service to our community, we bring a wealth of experience to every aspect of funeral planning.</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="process_box style_one dark_color">
+                           <div class="process_box_outer">
+                              <div class="icon">
+                                 <span class=" icon-line-chart"></span>
+                                 <div class="number"> 02 </div>
+                              </div>
+                              <div class="content_box">
+                                 <h2>
+                                    <a href="#" target="_blank" rel="nofollow">Compassion: </a>
+                                 </h2>
+                                 <p>  Our staff is committed to providing support and guidance with empathy, treating each family we serve with the utmost care and respect.</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="process_box style_one dark_color">
+                           <div class="process_box_outer">
+                              <div class="icon">
+                                 <span class=" icon-line-chart"></span>
+                                 <div class="number"> 03 </div>
+                              </div>
+                              <div class="content_box">
+                                 <h2>
+                                    <a href="#" target="_blank" rel="nofollow">Personalization: </a>
+                                 </h2>
+                                 <p>  We believe in creating meaningful and personalized ceremonies that reflect the individuality of your loved one, bringing comfort to family and friends..</p>
+                              </div>
+                           </div>
+                        </div>
+                        <!--===============spacing==============-->
+                        <div class="pd_bottom_30"></div>
+                        <!--===============spacing==============-->
+                        <div class="signature_wrapper">
+                           <div class="row gutter_15px">
+                              <div class="col-lg-4 col-md-12">
+                                 <div class="theme_btn_all color_one">
+                                    <a href="{% url 'main:contact' %}" rel="nofollow" class="theme-btn two">Contact Us</a>
+                                 </div>
+                              </div>
+                              <div class="col-lg-8 col-md-12">
+                                 <div class="extra_content authour_box dark_color">
+                                    <div class="authour_box_content">
+                                       <div class="image">
+                                          <img src="{% static 'assets/images/signature.png' %}" class="img-fluid sign_image"
+                                             alt="authour Image" />
+                                       </div>
+                                       <div class="text">
+                                          <h6>Liam Oliver, <span>Founder &amp; CEO </span>
+                                          </h6>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!--===============spacing==============-->
+                        <div class="pd_bottom_30"></div>
+                        <!--===============spacing==============-->
+                        <div class="extra_content download_docs dark_color">
+                           <div class="download_box_content">
+                              <a href="#" download>Download our latest presentation <i class="icon-download-symbol"></i>
+                              </a>
+                           </div>
+                        </div>
+                        <!--===============spacing==============-->
+                        <div class="pd_bottom_30"></div>
+                        <!--===============spacing==============-->
+                     </div>
+                     <div class="col-xl-6 col-lg-12">
+
+                        <div class="service_wrapper">
+                           <div class="move_image_absolute">
+                              <img src="{% static 'assets/images/about/about-1-1.png' %}" class="class-fluid" alt="image" />
+                           </div>
+                           <div class="row">
+                              <div class="col-lg-6 col-md-6">
+                                 <div class="service_box style_one dark_color">
+                                    <div class="service_content">
+                                       <div class="image ">
+                                          <img src="{% static 'assets/images/service-illu-1.png' %}" class="img-fluid"
+                                             alt="Service Image" />
+                                       </div>
+                                       <div class="content_inner">
+                                          
+                                          <p> During moments of grief, our team is here to guide you with compassion and understanding. Lean on us to navigate through the difficult decisions and create a meaningful farewell
+                                          </p>
+                                          <a href="{% url 'main:contact' %}" class="read_more"> Contact Us </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6">
+                                 <!--===============spacing==============-->
+                                 <div class="pd_top_100"></div>
+                                 <div class="pd_top_100 d_md_none"></div>
+                                 <!--===============spacing==============-->
+                                 <div class="service_box style_one dark_color last">
+                                    <div class="service_content">
+                                       <div class="image ">
+                                          <img src="{% static 'assets/images/service-illu-1.png' %}" class="img-fluid"
+                                             alt="Service Image" />
+                                       </div>
+                                       <div class="content_inner">
+                                          
+                                          <p> Consider pre-planning your funeral arrangements to ensure peace of mind for you and your loved ones. Our pre-planning services allow you to make choices in advance, ensuring your wishes are respected.
+                                          </p>
+                                          <a href="#" class="read_more"> Contact Us </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--===============spacing==============-->
+               <div class="pd_bottom_80"></div>
+               <!--===============spacing==============-->
+            </section>
+            <!---about us end-->
+            <!---service--->
+            <section class="service-section bg_light_1" id="service">
+               <!--===============spacing==============-->
+               <div class="pd_top_80"></div>
+               <!--===============spacing==============-->
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <div class="title_all_box style_two text-center dark_color">
+                           <div class="title_sections two">
+                              <div class="before_title">Services</div>
+                           <h2>Honoring Every Life</h2>
+                           <p>Solid Indeed Funeral & Casket has been a cornerstone in Nigeria, providing unwavering support<br> to families during their times of need. Our mission is to assist you in creating a heartfelt and memorable farewell <br>for your loved one, respecting cultural traditions and individual wishes.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <!--===============spacing==============-->
+                     <div class="mr_bottom_10"></div>
+                     <!--===============spacing==============-->
+                  </div>
+                  <div class="row">
+                     <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <div class="service_post style_one">
+                           <div class="image">
+                              <div class="overlay"></div>
+                              <img loading="lazy" width="500" height="500" src="{% static 'assets/images/service/pexels-cottonbro-studio-10485420.jpg' %}"
+                                 alt="img">
+                           </div>
+                           <div class="service_content icon_yes">
+                              <div class="icon_box">
+                                 <span class="icon icon-thumbs-up icon"></span>
+                              </div>
+                              <h2 class="title_service"><a href="#" rel="bookmark">Funaral Activity/Planing</a></h2>
+                              <p class="short_desc">Guiding Moments, Crafting Memories.</p>
+                              <a class="read_more" href="#"> Contact<i class="icon-right-arrow-long"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <div class="service_post style_one">
+                           <div class="image">
+                              <div class="overlay"></div>
+                              <img loading="lazy" width="500" height="500" src="{% static 'assets/images/service/pexels-ksenia-chernaya-8986709.jpg' %}"
+                                 alt="img">
+                           </div>
+                           <div class="service_content icon_yes">
+                              <div class="icon_box">
+                                 <span class="icon icon-thumbs-up icon"></span>
+                              </div>
+                              <h2 class="title_service"><a href="#" rel="bookmark">Peace in Transition</a></h2>
+                              <p class="short_desc">Navigating Transition with Tranquility.</p>
+                              <a class="read_more" href="#"> Contact<i class="icon-right-arrow-long"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <div class="service_post style_one">
+                           <div class="image">
+                              <div class="overlay"></div>
+                              <img loading="lazy" width="500" height="500" src="{% static 'assets/images/service/death-2421821_640.jpg' %}"
+                                 alt="img">
+                           </div>
+                           <div class="service_content icon_yes">
+                              <div class="icon_box">
+                                 <span class="icon icon-thumbs-up icon"></span>
+                              </div>
+                              <h2 class="title_service"><a href="#" rel="bookmark">Casket Service</a></h2>
+                              <p class="short_desc">Dignity Encased in Every Choice.
+                              </p>
+                              <a class="read_more" href="#"> Contact<i class="icon-right-arrow-long"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--===============spacing==============-->
+               <div class="pd_bottom_80"></div>
+               <!--===============spacing==============-->
+            </section>
+            <!---service-end--->
+            <!---expertise--->
+            <section class="expertise">
+               <div class="area_of_expertise">
+                  <div class="simpleParallax">
+                     <img src="{% static 'assets/images/candle-335965_1280.jpg' %}" class="cover-parallax" alt="image">
+                  </div>
+                  <div class="title_and_video">
+                     <div class="auto-container">
+                        <div class="row">
+                           <div class="col-lg-4">
+                              <div class="video_box text-center">
+                                 <a href="https://www.youtube.com/embed/-VK0axfge4A" class="lightbox-image"><i
+                                       class="icon-play"></i></a>
+                              </div>
+                           </div>
+                           <div class="col-lg-2"></div>
+                           <div class="col-lg-6">
+                              <div class="title_all_box style_one text-end">
+                                 <div class="title_sections">
+                                    <h2>Obituaries, Celebrating Lives Well-Lived</h2>
+                                    <p>Our obituary section is a place to share memories and celebrate the lives of those we've lost. Families can submit obituaries, including details about memorial services, condolences, and any preferred charities for donations.</p>
+                                 </div>
+                                 <div class="theme_btn">
+                                    <a href="service-default.html" class="theme-btn one">Read more</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="expertise">
+                     <div class="auto-container">
+                        <div class="row">
+                           <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 expertise_box">
+                              <div class="step_number">
+                                 <h1>01.</h1>
+                              </div>
+                              <h2 class="title"><a href="#">Casket Options for Every Tradition</a>
+                              </h2>
+                           </div>
+                           <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 expertise_box">
+                              <div class="step_number">
+                                 <h1>02.</h1>
+                              </div>
+                              <h2 class="title">
+                                 <a href="#">Best In-class Cremation</a>
+                              </h2>
+                           </div>
+                           <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 expertise_box">
+                              <div class="step_number">
+                                 <h1>03.</h1>
+                              </div>
+                              <h2 class="title">
+                                 <a href="#">Unmatched Funeral Planning</a>
+                              </h2>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!---expertise-end--->
+            <!--- faqs --->
+            <section class="faqs-section" id="faqs">
+               <!--===============spacing==============-->
+               <div class="pd_top_80"></div>
+               <!--===============spacing==============-->
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <div class="title_all_box style_two text-center dark_color">
+                           <div class="title_sections two">
+                              <div class="before_title">Find Useful</div>
+                              <h2>Question &amp; Answer</h2>
+                              <p>Check our FAQs for quick answers to frequently asked questions we receive.<br> If you
+                                 have
+                                 other questions write. </p>
+                           </div>
+                           <!--===============spacing==============-->
+                           <div class="mr_bottom_30"></div>
+                           <!--===============spacing==============-->
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-xl-3 col-lg-6 mb-5 mb-lg-5 mb-xl-0">
+                        <div class="simple_image_boxes height_360px parallax_cover">
+                           <img src="{% static 'assets/images/blog/pexels-pavel-danilyuk-7317908.jpg' %}" class="simp_img cover-parallax" alt="image">
+                        </div>
+                        <!--===============spacing==============-->
+                        <div class="mr_bottom_25"></div>
+                        <!--===============spacing==============-->
+                        <div class="progress_bar">
+                           <h2>Our Commitment <span>99%</span></h2>
+                           <div class="bar">
+                              <div class="bar-inner count-bar counted" data-percent="99%" style="width: 99%;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-3 col-lg-6 mb-5 mb-lg-5 mb-xl-0">
+                        <div class="simple_image_boxes height_360px parallax_cover">
+                           <img src="{% static 'assets/images/blog/pexels-mario-wallner-12403416.jpg' %}" class="simp_img cover-parallax" alt="image">
+                        </div>
+                        <!--===============spacing==============-->
+                        <div class="mr_bottom_25"></div>
+                        <!--===============spacing==============-->
+                        <div class="progress_bar">
+                           <h2>Our Quality <span>100%</span></h2>
+                           <div class="bar">
+                              <div class="bar-inner count-bar counted" data-percent="100%" style="width: 100%;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-6 col-lg-12">
+                        <div class="faq_section type_one">
+                           <div class="block_faq">
+                              <div class="accordion">
+                                 <dl>
+                                    <dt class="faq_header">
+                                       <span class="icon-play"></span> What services does Solid Indeed Funeral & Casket offer?
+                                    </dt>
+                                    <dd class="accordion-content hide">
+                                       <p>
+                                          Solid Indeed Funeral & Casket provides comprehensive funeral services, including traditional funerals, cremation services, memorial services, and pre-planning options. Additionally, we offer a selection of quality caskets to suit your preferences and budget.
+                                       </p>
+                                    </dd>
+                                    <dt class="faq_header">
+                                       <span class="icon-play"></span> Can I visit Solid Indeed Funeral & Casket in person?
+                                    </dt>
+                                    <dd class="accordion-content hide">
+                                       <p>
+                                          Yes, you are welcome to visit Solid Indeed Funeral & Casket. Our physical address is [Address], and our doors are open to assist you during business hours. Additionally, you can contact us at [Phone Number] or through our online [Contact Form].
+                                       </p>
+                                    </dd>
+                                    <dt class="faq_header">
+                                       <span class="icon-play"></span> How can I choose the right casket for my loved one?
+                                    </dt>
+                                    <dd class="accordion-content hide">
+                                       <p>
+                                          Our compassionate team at Solid Indeed Funeral & Casket is dedicated to assisting you in selecting a casket that aligns with your preferences and budget. We offer a diverse range of caskets, ensuring a dignified and personalized farewell.
+                                       </p>
+                                    </dd>
+                                    <dt class="faq_header">
+                                       <span class="icon-play"></span> Can I customize the funeral service to reflect my loved one's unique personality?
+                                    </dt>
+                                    <dd class="accordion-content hide">
+                                       <p>
+                                          Absolutely. At Solid Indeed Funeral & Casket, we believe in creating personalized and meaningful ceremonies. Our experienced team will work closely with you to incorporate elements that celebrate and honor the individuality of your loved one.
+                                       </p>
+                                    </dd>
+                                    <dt class="faq_header active">
+                                       <span class="icon-play"></span> How do I pre-plan my funeral arrangements ?
+                                    </dt>
+                                    <dd class="accordion-content hide" style="display: block;">
+                                       <p>
+                                          Pre-planning your funeral arrangements with Solid Indeed Funeral & Casket is a thoughtful and considerate choice. Our team is available to guide you through the process, ensuring your wishes are documented and respected.
+                                       </p>
+                                    </dd>
+                                 </dl>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--===============spacing==============-->
+               <div class="pd_bottom_60"></div>
+               <!--===============spacing==============-->
+            </section>
+            <!--- faqs end--->
+            
+            <!---project--->
+            <section class="project-carousel bg_light_1" id="obituaries">
+               <!--===============spacing==============-->
+               <div class="pd_top_80"></div>
+               <!--===============spacing==============-->
+               <div class="container">
+                  <div class="row">
+                     <div class="title_all_box style_one text-center dark_color">
+                        <div class="title_sections">
+                           <div class="before_title">Obituaries</div>
+                           <h2>Latest Obituaries</h2>
+                        </div>
+                        <!--===============spacing==============-->
+                        <div class="mr_bottom_10"></div>
+                        <!--===============spacing==============-->
+                     </div>
+                  </div>
+               </div>
+               <div class="container-fluid">
+
+                  <div class="row">
+                     <div class="col-lg-12">
+
+                        <div class="project_caro_section carousel style_one ">
+                           <div class="swiper-container" data-swiper='{
+                           "loop": true,
+                           "autoplay": {
+                             "delay": 5000
+                           },
+                           "speed": 1000,
+                           "centeredSlides": false,
+                           "slidesPerView": 4,
+                           "spaceBetween": 30,
+                           "pagination": {
+                             "el": ".swiper-pagination",
+                             "clickable": true
+                           },
+                           "navigation": {
+                             "nextEl": ".swiper-button-next",
+                             "prevEl": ".swiper-button-prev"
+                           },
+                           "breakpoints": {
+                              "1200": {
+                                 "slidesPerView": 4 
+                                },
+                              "1024": {
+                               "slidesPerView": 2 
+                              },
+                             "768": {
+                               "slidesPerView": 2 
+                             },
+                             "576": {
+                               "slidesPerView": 1 
+                             },
+                             "0": {
+                              "slidesPerView": 1 
+                            }
+                           }
+                         }'>
+                              <div class="swiper-wrapper">
+                                 <!----swiper warapper start---->
+                                 <div class="swiper-slide">
+                                    <div class="project_post style_one mr_top_20">
+                                       <div class="image">
+                                          <img src="{% static 'assets/images/projects/man-844211_640.jpg' %}" class="img-fluid"
+                                             alt="img" />
+                                       </div>
+                                       <div class="project_caro_content">
+                                          <div class="left_side">
+                                             <p>23rd jan. 1600 - 31st feb. 2021</p>
+                                             <h2 class="title_pro"><a href="project-details.html">John Doe</a></h2>
+                                          </div>
+                                          <div class="right_side">
+                                             <a href="project-details.html"><i class="icon-right-arrow"></i></a>
+                                             <a href="project-details.html" class="two"><i
+                                                   class="icon-right-arrow"></i></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <div class="project_post style_one mr_top_20">
+                                       <div class="image">
+                                          <img src="{% static 'assets/images/projects/man-844212_640.jpg' %}" class="img-fluid"
+                                             alt="img" />
+                                       </div>
+                                       <div class="project_caro_content">
+                                          <div class="left_side">
+                                             <p>23rd jan. 1600 - 31st feb. 2021</p>
+                                             <h2 class="title_pro"><a href="project-details.html">John Doe</a></h2>
+                                          </div>
+                                          <div class="right_side">
+                                             <a href="project-details.html"><i class="icon-right-arrow"></i></a>
+                                             <a href="project-details.html" class="two"><i
+                                                   class="icon-right-arrow"></i></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <div class="project_post style_one mr_top_20">
+                                       <div class="image">
+                                          <img src="{% static 'assets/images/projects/man-845709_640.jpg' %}" class="img-fluid"
+                                             alt="img" />
+                                       </div>
+                                       <div class="project_caro_content">
+                                          <div class="left_side">
+                                             <p>23rd jan. 1600 - 31st feb. 2021</p>
+                                             <h2 class="title_pro"><a href="project-details.html">John Doe</a></h2>
+                                          </div>
+                                          <div class="right_side">
+                                             <a href="project-details.html"><i class="icon-right-arrow"></i></a>
+                                             <a href="project-details.html" class="two"><i
+                                                   class="icon-right-arrow"></i></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <div class="project_post style_one mr_top_20">
+                                       <div class="image">
+                                          <img src="{% static 'assets/images/projects/man-852423_640.jpg' %}" class="img-fluid"
+                                             alt="img" />
+                                       </div>
+                                       <div class="project_caro_content">
+                                          <div class="left_side">
+                                             <p>23rd jan. 1600 - 31st feb. 2021</p>
+                                             <h2 class="title_pro"><a href="project-details.html">John Doe</a></h2>
+                                          </div>
+                                          <div class="right_side">
+                                             <a href="project-details.html"><i class="icon-right-arrow"></i></a>
+                                             <a href="project-details.html" class="two"><i
+                                                   class="icon-right-arrow"></i></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <div class="project_post style_one mr_top_20">
+                                       <div class="image">
+                                          <img src="{% static 'assets/images/projects/woman-952506_640.jpg' %}" class="img-fluid"
+                                             alt="img" />
+                                       </div>
+                                       <div class="project_caro_content">
+                                          <div class="left_side">
+                                             <p>23rd jan. 1600 - 31st feb. 2021</p>
+                                             <h2 class="title_pro"><a href="project-details.html">John Doe</a></h2>
+                                          </div>
+                                          <div class="right_side">
+                                             <a href="project-details.html"><i class="icon-right-arrow"></i></a>
+                                             <a href="project-details.html" class="two"><i
+                                                   class="icon-right-arrow"></i></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <div class="project_post style_one mr_top_20">
+                                       <div class="image">
+                                          <img src="{% static 'assets/images/projects/indian-5137640_640.jpg' %}" class="img-fluid"
+                                             alt="img" />
+                                       </div>
+                                       <div class="project_caro_content">
+                                          <div class="left_side">
+                                             <p>23rd jan. 1600 - 31st feb. 2021</p>
+                                             <h2 class="title_pro"><a href="project-details.html">John Doe</a></h2>
+                                          </div>
+                                          <div class="right_side">
+                                             <a href="project-details.html"><i class="icon-right-arrow"></i></a>
+                                             <a href="project-details.html" class="two"><i
+                                                   class="icon-right-arrow"></i></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <div class="project_post style_one mr_top_20">
+                                       <div class="image">
+                                          <img src="{% static 'assets/images/projects/man-850971_640.jpg' %}" class="img-fluid"
+                                             alt="img" />
+                                       </div>
+                                       <div class="project_caro_content">
+                                          <div class="left_side">
+                                             <p>23rd jan. 1600 - 31st feb. 2021</p>
+                                             <h2 class="title_pro"><a href="project-details.html">John Doe</a></h2>
+                                          </div>
+                                          <div class="right_side">
+                                             <a href="project-details.html"><i class="icon-right-arrow"></i></a>
+                                             <a href="project-details.html" class="two"><i
+                                                   class="icon-right-arrow"></i></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <div class="project_post style_one mr_top_20">
+                                       <div class="image">
+                                          <img src="{% static 'assets/images/projects/man-351281_640.jpg' %}" class="img-fluid"
+                                             alt="img" />
+                                       </div>
+                                       <div class="project_caro_content">
+                                          <div class="left_side">
+                                             <p>23rd jan. 1600 - 31st feb. 2021</p>
+                                             <h2 class="title_pro"><a href="project-details.html">John Doe</a></h2>
+                                          </div>
+                                          <div class="right_side">
+                                             <a href="project-details.html"><i class="icon-right-arrow"></i></a>
+                                             <a href="project-details.html" class="two"><i
+                                                   class="icon-right-arrow"></i></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <div class="project_post style_one mr_top_20">
+                                       <div class="image">
+                                          <img src="{% static 'assets/images/projects/man-852428_640.jpg' %}" class="img-fluid"
+                                             alt="img" />
+                                       </div>
+                                       <div class="project_caro_content">
+                                          <div class="left_side">
+                                             <p>23rd jan. 1600 - 31st feb. 2021</p>
+                                             <h2 class="title_pro"><a href="project-details.html">John Doe</a></h2>
+                                          </div>
+                                          <div class="right_side">
+                                             <a href="project-details.html"><i class="icon-right-arrow"></i></a>
+                                             <a href="project-details.html" class="two"><i
+                                                   class="icon-right-arrow"></i></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <!----swiper warapper end---->
+                              </div>
+                              <!----swiper-pagination start---->
+                              <div class="p_pagination">
+                                 <div class="swiper-pagination">
+                                 </div>
+                              </div>
+                              <!----swiper-pagination end---->
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+               <!--===============spacing==============-->
+               <div class="pd_bottom_90"></div>
+               <!--===============spacing==============-->
+            </section>
+            <!---project-end--->
+            <!---testimonial--->
+            <section class="testimonial bg_op_1" style="background-image: url({% static 'assets/images/testimonialbg.jpg' %});">
+               <div class="row align-items-center">
+                  <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 pd_zero">
+                     <div class="image">
+                        <img src="{% static 'assets/images/pexels-pixabay-415571.jpg' %}" class="object-fit-cover img-fluid height_560px"
+                           alt="image" />
+                     </div>
+                  </div>
+                  <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 pd_zero">
+                     <!--===============spacing==============-->
+                     <div class="pd_top_70"></div>
+                     <!--===============spacing==============-->
+                     <div class="testimonial_sec_wrapper pd_left_70">
+                        <div class="title_all_box style_one light_color">
+                           <div class="title_sections">
+                              <div class="before_title">
+                                 Quote About
+                              </div>
+                              <h2> Customers Experience</h2>
+                           </div>
+                           <!--===============spacing==============-->
+                           <div class="mr_bottom_20"></div>
+                           <!--===============spacing==============-->
+                        </div>
+                        <div class="testimonial_sec light_color style_one">
+                           <div class="icon_quotes">
+                              <i class="icon-quote"></i>
+                           </div>
+                           <div class="swiper-container" data-swiper='{
+                              "loop": true,
+                              "autoplay": {
+                                "delay": 7000
+                              },
+                              "speed": 1000,
+                              "centeredSlides": false,
+                              "slidesPerView": 1,
+                              "spaceBetween": 30,
+                              "navigation": {
+                                "nextEl": ".next-single-one",
+                                "prevEl": ".prev-single-one"
+                              },
+                              "pagination": {
+                                "el": ".number-pagination",
+                                "type": "fraction"
+                              },
+                              "breakpoints": {
+                                "1200": {
+                                  "slidesPerView": 1 
+                                },
+                                "1024": {
+                                  "slidesPerView": 1 
+                                },
+                                "768": {
+                                  "slidesPerView": 1 
+                                },
+                                "576": {
+                                  "slidesPerView": 1 
+                                }
+                              }
+                            }'>
+                              <div class="swiper-wrapper">
+                                 <div class="swiper-slide">
+                                    <div class="testimonial_box">
+                                       <div class="rating">
+                                          <ul>
+                                             <li><span class="fa fa-star fill"></span><span
+                                                   class="fa fa-star fill"></span><span
+                                                   class="fa fa-star fill"></span><span
+                                                   class="fa fa-star fill"></span><span class="fa fa-star empty"></span>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                       <div class="authour_details  image_yes ">
+                                          <div class="image">
+                                             <img src="{% static 'assets/images/testi-3.png' %}" alt="image" />
+                                          </div>
+                                          <div class="details">
+                                             <h2>Jacob Leonardo</h2>
+                                             <span>Senior Manager of Excel Solution</span>
+                                          </div>
+                                       </div>
+                                       <div class="comment">
+                                          While running an early stage startup everything feels
+                                          hard, that’s why it’s been so nice to have our accounting
+                                          feel easy. We recommed Qetus.
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <div class="testimonial_box">
+                                       <div class="rating">
+                                          <ul>
+                                             <li><span class="fa fa-star fill"></span><span
+                                                   class="fa fa-star fill"></span><span
+                                                   class="fa fa-star fill"></span><span
+                                                   class="fa fa-star fill"></span><span class="fa fa-star fill"></span>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                       <div class="authour_details  image_yes ">
+                                          <div class="image">
+                                             <img src="{% static 'assets/images/testi-2.png' %}" alt="image" />
+                                          </div>
+                                          <div class="details">
+                                             <h2>Jacob Leonardo</h2>
+                                             <span>Senior Manager of Excel Solution</span>
+                                          </div>
+                                       </div>
+                                       <div class="comment">
+                                          While running an early stage startup everything feels
+                                          hard, that’s why it’s been so nice to have our accounting
+                                          feel easy. We recommed Qetus.
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <div class="testimonial_box">
+                                       <div class="rating">
+                                          <ul>
+                                             <li><span class="fa fa-star fill"></span><span
+                                                   class="fa fa-star fill"></span><span
+                                                   class="fa fa-star empty"></span><span
+                                                   class="fa fa-star empty"></span><span
+                                                   class="fa fa-star empty"></span></li>
+                                          </ul>
+                                       </div>
+                                       <div class="authour_details  image_yes ">
+                                          <div class="image">
+                                             <img src="{% static 'assets/images/testi-1.png' %}" alt="image" />
+                                          </div>
+                                          <div class="details">
+                                             <h2>Jacob Leonardo</h2>
+                                             <span>Senior Manager of Excel Solution</span>
+                                          </div>
+                                       </div>
+                                       <div class="comment">
+                                          While running an early stage startup everything feels
+                                          hard, that’s why it’s been so nice to have our accounting
+                                          feel easy. We recommed Qetus.
+                                       </div>
+                                    </div>
+                                 </div>
+
+                              </div>
+                              <div class="arrows">
+                                 <div class="prev-single-one"></div>
+                                 <div class="next-single-one"></div>
+                              </div>
+                              <div class="num_pagination">
+                                 <div class="number-pagination">
+
+                                 </div>
+                              </div>
+
+                           </div>
+                        </div>
+                     </div>
+                     <!--===============spacing==============-->
+                     <div class="pd_bottom_70"></div>
+                     <!--===============spacing==============-->
+                  </div>
+                  <!---empty column--->
+                  <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-12">
+                  </div>
+                  <!---empty column--->
+               </div>
+            </section>
+            <!---testimonial-end--->
+            <!---blog--->
+            <section class="blog-post" id="blog">
+               <!--===============spacing==============-->
+               <div class="pd_top_80"></div>
+               <!--===============spacing==============-->
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <div class="title_all_box style_one text-center  dark_color">
+                           <div class="title_sections">
+                              <div class="before_title"> Casket Services</div>
+                              <h2>Elegance Beyond Expectations</h2>
+                           </div>
+                        </div>
+                        <!--===============spacing==============-->
+                        <div class="pd_bottom_20"></div>
+                        <!--===============spacing==============-->
+                     </div>
+
+                     <section class="two_column news_wrapper_grid">
+                        <div class="grid_show_case grid_layout clearfix">
+                           <div class="news_box style_two grid_box _card has_images">
+                              <div class="content_box">
+                                 <div class="overlay"> </div>
+                                 <img src="{% static 'assets/images/pexels-cottonbro-studio-10485636.jpg' %}" class="img-fluid" alt="img" />
+                                 <div class="category">
+                                    <a href="#" class="categories"><i class="icon-folder"></i>Casket Services</a>
+                                 </div>
+                                 <div class="content_mid">
+                                    
+                                    <h2 class="title"><a href="blog-single.html">Eco-Friendly Options:</a></h2>
+                                    <span class="date_in_number">Consider our environmentally conscious caskets, designed with sustainable materials to honor your loved one's legacy while caring for our planet.</span>
+                                 </div>
+                                 <div class="auhtour_box">
+                                    <img alt='img' class="img-fluid" src="{% static 'assets/images/pexels-cottonbro-studio-10485636.jpg' %}" height='60'
+                                       width='60' />
+                                    <div class="contnet_a">
+                                       <p>POSTED BY</p>
+                                       <h4> Solid Funeral and Casket </h4>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="news_box style_two grid_box _card has_images">
+                              <div class="content_box">
+                                 <div class="overlay"> </div>
+                                 <img src="{% static 'assets/images/ai-generated-8183504_640.jpg' %}" class="img-fluid" alt="img" />
+                                 <div class="category">
+                                    <a href="#" class="categories"><i class="icon-folder"></i>Funeral Service</a>
+                                 </div>
+                                 <div class="content_mid">
+                                    <h2 class="title"><a href="blog-single.html">The Order Of Funeral Service</a></h2>
+                                    <span class="date_in_number">Order of Service are processions in which the Funeral Service will run. They are prepared by the Church with input from the deceased family; a copy is then emailed, or brought to the Funeral Home.</span>
+                                 </div>
+                                 <div class="auhtour_box">
+                                    <img alt='img' class="img-fluid" src="{% static 'assets/images/pexels-cottonbro-studio-10485636.jpg' %}" height='60'
+                                       width='60' />
+                                    <div class="contnet_a">
+                                       <p>POSTED BY</p>
+                                       <h4> Solid Funeral and Casket </h4>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </section>
+                     <section class="four_column news_wrapper_grid">
+                        <div class="grid_show_case grid_layout clearfix">
+
+                           
+                           
+                           
+                           
+                        </div>
+                     </section>
+                  </div>
+               </div>
+               <!--===============spacing==============-->
+               <div class="pd_bottom_70"></div>
+               <!--===============spacing==============-->
+            </section>
+            <!---blog-end--->
+{% endblock %}
